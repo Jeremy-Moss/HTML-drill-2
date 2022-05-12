@@ -1,0 +1,81 @@
+#main {
+    height: 99vw;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    margin: 2.2vw 6vw 3vw 3vw;
+}
+
+#row-one {
+    border: .5vw solid black;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    margin-bottom: 2.4vw;
+}
+
+#row-two {
+    border: .6vw dotted black;
+    background-color:rgb(248, 250, 249);
+    width: 100%;
+    height: 31%;
+    display: flex;
+    margin-bottom: 4vw;
+}
+
+#row-three {
+    border: .4vw solid rgb(222, 218, 218);
+    width: 65%;
+    height: 40%;
+    display: flex;
+    align-self: center;
+    box-shadow: 3px 2px 3px rgb(184, 178, 178);
+}
+
+#purple-rectangle {
+    background-color:rgb(119, 38, 195);
+    height: 15vw;
+    width: 5vw;
+    align-self:flex-end;
+    margin: 0 0 1.2vw .8vw;
+
+}
+
+#green-rectangle {
+    background-color:rgb(5, 119, 5);
+    height: 20vw;
+    width: 42vw;
+    align-self: center;
+    margin: 0 4.5vw;
+}
+
+#blue-circle {
+    background-color:rgb(109, 187, 255);
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    align-self: center;
+    margin: 0 1vw;
+}
+
+#light-rectangle {
+    background:rgb(240, 237, 199);
+    width: 88vw;
+    height: 20vw;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    margin: 5vw 5vw 6vw 4vw;
+    box-shadow: 6px 6px 5px rgb(36, 34, 34);
+}
+
+#hello-box {
+    background-color: white;
+    font: italic bold small-caps 3vh/4vh Georgia, serif;
+    text-align: center;
+    color:rgb(19, 19, 147);
+    word-spacing: 200vw;
+    letter-spacing:1vw;
+    align-self: center;
+}
+
